@@ -15,7 +15,7 @@ Open apps: Ranger, Cbonsai, htop and pfetch. (Pls use cbonsai, is so pretty)
 
 # Dependencies
 
-The softawers that i used for the rice: Bspwm (wm),polybar, dunst, picom, alacritty (terminal) and rofi. (Terminal aplications like: Ranger, Cbonsai, htop and pfetch not necessary)
+The softawers that i used for the rice: Bspwm (wm),polybar, dunst, picom, alacritty (terminal), nitrogen and rofi. (Terminal aplications like: Ranger, Cbonsai, htop and pfetch not necessary)
 
 For Polybar spotify part, is needed zscroll, playerctl (make sure to prioritize spotify) and some fonts (i'll talk about it later)
 
