@@ -1,0 +1,44 @@
+#! /bin/sh
+
+#AUTOSTART (I did not make an autostart file because i think this is a easer way to now what is going on)
+
+#Nitrogen (wallpaper)
+nitrogen --restore 
+
+#Polybar 
+$HOME/.config/polybar/launch.sh
+
+#Dunst
+dunst &
+
+#Eww (Only do this if you have eww installed and have an config)
+#cd eww/target/release ; ./eww daemon ; cd $HOME 
+ 
+#Picom 
+picom &
+
+#sxhkd 
+sxhkd &
+
+#######################################################
+
+#BSPWM-CONFIG
+pgrep -x sxhkd > /dev/null 
+
+bspc monitor -d I II III IV V VI 
+
+#bspc config normal_border_color   "#90a0aa"
+#bspc config focused_border_color "#d46b48" 
+
+bspc config border_width         0
+bspc config window_gap          12
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+bspc rule -a Gimp desktop='^8' state=floating follow=on
+bspc rule -a Chromium desktop='^2'
+bspc rule -a mplayer2 state=floating
+bspc rule -a Kupfer.py focus=on
+bspc rule -a Screenkey manage=off
