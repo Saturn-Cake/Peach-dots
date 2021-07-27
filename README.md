@@ -22,4 +22,4 @@ For Polybar spotify part, is needed zscroll, playerctl (make sure to prioritize 
 # Fonts
 Like i said, i'm talking about the fonts, because now is later, at my perspective. 
 
-Be sure to have the essential fonts, The fonts that i mostly use are: Iosevka Nerd Fonts, Awesome fonts (for icons) and Material disign dekstop fonts (idk if it's Material disign fonts or Material disign desktop fonts lmao)
+Be sure to have the essential fonts, The fonts that i use are: Iosevka Nerd Fonts, Awesome fonts (for icons) and Material disign dekstop fonts (idk if it's Material disign fonts or Material disign desktop fonts lmao)
