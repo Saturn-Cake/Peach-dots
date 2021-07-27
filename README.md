@@ -13,13 +13,13 @@ Modules Bars: Polybar (My polybar is edited for eww users, you can add some modu
 Program launchers: rofi (Not in the print put i'll ensure you that is pretty),
 Open apps: Ranger, Cbonsai, htop and pfetch. (Pls use cbonsai, is so pretty)
 
-#Dependencies
+# Dependencies
 
 The softawers that i used for the rice: Bspwm (wm),polybar, dunst, picom, alacritty (terminal) and rofi. (Terminal aplications like: Ranger, Cbonsai, htop and pfetch not necessary)
 
 For Polybar spotify part, is needed zscroll, playerctl (make sure to prioritize spotify) and some fonts (i'll talk about it later)
 
-#Fonts
+# Fonts
 Like i said, i'm talking about the fonts, because now is later, at my perspective. 
 
 Be sure to have the essential fonts, The fonts that i mostly use are: Iosevka Nerd Fonts, Awesome fonts (for icons) and Material disign dekstop fonts (idk if it's Material disign fonts or Material disign desktop fonts lmao)
